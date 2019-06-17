@@ -1,0 +1,12 @@
+$box-size: 30vw;
+
+.content {
+  display: flex;
+  justify-content: center;
+  &__box {
+    border: 2px solid black;
+    width: $box-size;
+    height: $box-size;
+    margin: 3px;
+  }
+}

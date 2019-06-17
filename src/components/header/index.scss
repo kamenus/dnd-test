@@ -1,0 +1,17 @@
+$size: 75px;
+
+.header {
+  height: 85px;
+  border-bottom: 1px solid #2f2f2f;
+  margin-bottom: 5px;
+  
+  &__button {
+    float: right;
+    width: $size;
+    height: $size;
+
+    &::after {
+      clear: both;
+    }
+  }
+}
